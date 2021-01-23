@@ -8,4 +8,6 @@ class ClickityClick extends React.Component{
       hasBeenClicked:false
     };
   }
+  
+  handleClick=()=>{}
 }
