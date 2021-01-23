@@ -9,5 +9,6 @@ class ClickityClick extends React.Component{
     };
   }
   
-  handleClick=()=>{}
+  handleClick=()=>{};
+  
 }
