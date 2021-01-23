@@ -15,7 +15,10 @@ class ClickityClick extends React.Component{
     return(
       <div>
         <p> I have {this.state.hasBeenClicked ? null  : 'not'}</p>
+        <button onClick={handleClick}> Click me!</button>
       </div>
-      )
+      );
   }
 }
+
+export default ClickityClick
